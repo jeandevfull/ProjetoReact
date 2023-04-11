@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Ubuntu:wght@300&display=swap');
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: yellow;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.conteudo{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.foto{
+    width: 45%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.comentario{
+    width: 500px;
+    font-size: 25px;
+    color: white;
+    padding-top: 40px;
+}
+
+.final{
+    font-size: 30px;
+    color: yellow;
+}
+
+@media(max-width:1000px){
+    .conteudo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto{
+        width: 600px;
+    }
+
+}
+
+

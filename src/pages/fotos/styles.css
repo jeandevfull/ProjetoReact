@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Ubuntu:wght@300&display=swap');
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: yellow;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.cards-contente{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    row-gap: 30px;
+    column-gap: 25px;
+}
+
+.cards:hover{
+    transform: scale(1.08);
+}
+
+.cards{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50%,50%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0,0,20px,10px;
+}
+
+.banner-1-1{
+    background-image: url('https://musicaecinema.com/wp-content/uploads/2023/01/homem-formiga-vespa-quantumania-kang-marvel-fase-5.jpg');
+}
+
+.banner-2-2{
+    background-image: url('https://cinepop.com.br/wp-content/uploads/2023/01/20221028-ovicio-homem-formiga-poster.jpg');
+}
+
+.banner-3-3{
+    background-image: url('https://www.einerd.com.br/wp-content/uploads/2023/01/kang-o-conquistador-homem-formiga-3.jpg');
+}
+
+.banner-4{
+    background-image: url('https://www.einerd.com.br/wp-content/uploads/2023/02/homem-formiga-reino-quantico-890x466.jpg');
+}
+
+.banner-5{
+    background-image: url('https://fimgs.odvimg.com.br/716x475/homem-formiga-e-a-vespa-quantumania/homem-formiga-e-a-vespa-quantumania-78355.jpg');
+}
+
+.banner-6{
+    background-image: url('https://agorapaparazzi.com.br/wp-content/uploads/2023/02/modok-homem-formiga-3-1.jpg');
+}
+
+.banner-7{
+    background-image: url('https://veja.abril.com.br/wp-content/uploads/2023/02/homem-formiga-3-quantumania.jpg?quality=70&strip=info&w=1280&h=720&crop=1');
+}
+
+.banner-8{
+    background-image: url('https://www.omegascopio.com.br/wp-content/uploads/2023/03/kang-quantumania-48aff5c-e1676637121599.jpg');
+}
+
+@media(max-width:1000px){
+     .title{
+        font-size: 53px;
+     }
+
+    .cards-contente{
+        display: grid;
+        grid-template-columns: 1fr
+    }
+}

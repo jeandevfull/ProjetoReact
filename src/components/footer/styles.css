@@ -1,0 +1,16 @@
+
+
+footer{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: space-around;
+}
+
+span{
+    color: white;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    display: block;
+}
